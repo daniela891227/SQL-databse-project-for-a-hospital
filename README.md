@@ -12,6 +12,7 @@ The database contained entities defined for doctors, nurses, cleaners, types of 
 
 ## Code sample
 '''sql
+
 SELECT P.Nombre, count(*) as Cantidad_de_medicamentos_suministrados
 FROM proyecto_final.suministran SM INNER JOIN proyecto_final.proveedores as P ON
 SM.Codigo_del_proveedor = P.Codigo_del_proveedor INNER JOIN proyecto_final.medicamentos as M ON
@@ -19,6 +20,7 @@ SM.Codigo_medicamento = M.Codigo_medicamento
 GROUP BY P.Nombre
 ORDER BY Cantidad_de_medicamentos_suministrados DESC
 Limit 1;
+
 '''
 
 
