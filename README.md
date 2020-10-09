@@ -3,7 +3,7 @@
 This is a database is meant to save information for a Hospital in Uruguay. 
 
 ## Technology used
-*MySQL
+*MySQL/
 *MySQL Workbench
 
 ## Features
