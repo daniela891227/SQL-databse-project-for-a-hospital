@@ -3,15 +3,14 @@
 This is a database is meant to save information for a Hospital in Uruguay. 
 
 ## Technology used
-*MySQL
-
-*MySQL Workbench
+* MySQL
+* MySQL Workbench
 
 ## Features
 The database contained entities defined for doctors, nurses, cleaners, types of treatments, types of services, rooms, providers, medicine, etc and the relationships between them to make the Entity/Relationship diagram.
 
 ## Code sample
-'''sql
+```sql
 
 SELECT P.Nombre, count(*) as Cantidad_de_medicamentos_suministrados
 FROM proyecto_final.suministran SM INNER JOIN proyecto_final.proveedores as P ON
@@ -21,6 +20,6 @@ GROUP BY P.Nombre
 ORDER BY Cantidad_de_medicamentos_suministrados DESC
 Limit 1;
 
-'''
+```
 
 
