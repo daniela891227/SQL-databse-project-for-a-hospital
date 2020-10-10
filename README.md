@@ -14,7 +14,7 @@ The database contained entities defined for doctors, nurses, cleaners, types of 
 It also features the Relational model, the database object creation queries (tables, indexes, fk) and the data insertion queries in each of them.
 
 ## Code sample
-SQL query: The supplier that supplied the most drugs to the hopsital
+SQL query: The supplier that provided the most medicines to the hospital
 ```sql
 
 SELECT P.Nombre, count(*) as Cantidad_de_medicamentos_suministrados
