@@ -15,7 +15,8 @@ It also features the Relational model, the database object creation queries (tab
 
 ## Code sample
 SQL query: The supplier that supplied the most drugs to the hopsital
-```
+```sql
+
 SELECT P.Nombre, count(*) as Cantidad_de_medicamentos_suministrados
 FROM proyecto_final.suministran SM INNER JOIN proyecto_final.proveedores as P ON
 SM.Codigo_del_proveedor = P.Codigo_del_proveedor INNER JOIN proyecto_final.medicamentos as M ON
